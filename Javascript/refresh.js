@@ -104,5 +104,14 @@ console.log('after swappp');
 console.log('a = '+ax);
 console.log('b = '+bx);
 
-
-/
+// Array
+let fruits = ['Apple', 'Banana', 'Cherry'];
+console.log(fruits[0]);
+fruits.push('Durian');
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
+fruits.unshift('Apple');
+console.log(fruits);
