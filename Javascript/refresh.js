@@ -115,3 +115,18 @@ fruits.shift();
 console.log(fruits);
 fruits.unshift('Apple');
 console.log(fruits);
+
+
+let personObject = {
+    Name: "Alice",
+    Age: 22,
+    Address: "Wonderland",
+    greet: function(){
+        return `Hello, ${this.Name}`;
+    }
+}
+
+console.log(personObject.greet());
+
+//alert 
+alert("This is an Alert")
