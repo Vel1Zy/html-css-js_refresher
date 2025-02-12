@@ -89,21 +89,20 @@ console.log(greetArrowFunction("Bob"));
 let ax = "100";
 let bx = 50;
 
-function swap(a, b){
-    let temp = a;
-    a = b;
-    b = a;
-    return
+//swap 2 value (ax and bx) using a function
+function swapValues(a,b){
+    return [b,a];
 }
+
+//swapping value using function
 console.log('a = '+ax);
 console.log('b = '+bx);
 
 console.log('after swappp');
-swap(ax,bx);
+[ax, bx] = swapValues(ax, bx);
 
 console.log('a = '+ax);
 console.log('b = '+bx);
 
 
-
-
+/
