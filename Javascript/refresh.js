@@ -74,4 +74,36 @@ do{
 cc++;
 console.log("current cc: "+cc);
 cc;
-}while(cc<10)
+}while(cc<10);
+
+// function declaration
+function greet(name){
+    return "Hello, " + name;
+}
+console.log(greet("Alice"));
+
+const greetArrowFunction = (name) => `Hello, ${name}`;
+console.log(greetArrowFunction("Bob"));
+
+// Swapping Value
+let ax = "100";
+let bx = 50;
+
+function swap(a, b){
+    let temp = a;
+    a = b;
+    b = a;
+    return
+}
+console.log('a = '+ax);
+console.log('b = '+bx);
+
+console.log('after swappp');
+swap(ax,bx);
+
+console.log('a = '+ax);
+console.log('b = '+bx);
+
+
+
+
